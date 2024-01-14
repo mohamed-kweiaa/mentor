@@ -33,7 +33,7 @@ body{
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 33.5%;
+    top: 30%;
     left: 50%;
     transform: translate(-50.2%, -50%);
     -webkit-transform: translate(-50.2%, -50%);
@@ -55,8 +55,8 @@ body{
 i{
     position: absolute;
     color: white;
-    font-size: 30px;
-    top: 33%;
+    font-size: 25px;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -165,5 +165,13 @@ p{
 @media (max-width:375px) {
     .container{
         scale: 0.9;
+    }
+
+    .overlay::before{
+        top: 28.5%;
+    }
+
+    i{
+        top: 28%;
     }
 }
