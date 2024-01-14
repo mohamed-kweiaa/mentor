@@ -13,19 +13,16 @@ body{
 }
 
 .container{
+    position: relative;
     background-color: hsl(216, 50%, 16%);
     padding: 20px 30px;
     border-radius: 4%;
     margin: 40px auto;
-    margin-top:100px !important;
+    margin-top: 100px !important;
     -webkit-border-radius: 4%;
     -moz-border-radius: 4%;
     -ms-border-radius: 4%;
     -o-border-radius: 4%;
-}
-
-.main-img{
-    position: relative;
 }
 
 .overlay::before{
@@ -33,7 +30,7 @@ body{
     position: absolute;
     width: 300px;
     height: 300px;
-    top: 30%;
+    top: 29.8%;
     left: 50%;
     transform: translate(-50.2%, -50%);
     -webkit-transform: translate(-50.2%, -50%);
@@ -56,7 +53,7 @@ i{
     position: absolute;
     color: white;
     font-size: 25px;
-    top: 30%;
+    top: 29%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -64,8 +61,8 @@ i{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     text-align: center;
-    opacity: 0
-    ;
+    opacity: 0;
+    
 }
 .overlay:hover > i {
     opacity: 1;
@@ -164,14 +161,6 @@ p{
 
 @media (max-width:375px) {
     .container{
-        scale: 0.9;
-    }
-
-    .overlay::before{
-        top: 28.5%;
-    }
-
-    i{
-        top: 28%;
+        scale: 0.8;
     }
 }
